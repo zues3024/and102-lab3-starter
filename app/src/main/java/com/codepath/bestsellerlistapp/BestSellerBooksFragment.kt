@@ -9,6 +9,8 @@ import androidx.core.widget.ContentLoadingProgressBar
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.codepath.asynchttpclient.AsyncHttpClient
+import com.codepath.asynchttpclient.RequestParams
 import com.codepath.bestsellerlistapp.R
 
 // --------------------------------//
@@ -46,6 +48,9 @@ class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
         progressBar.show()
 
         // Create and set up an AsyncHTTPClient() here
+        val client = AsyncHttpClient()
+        val requestParam = RequestParams()
+        requestParam["api-key"] = API_KEY
 
         // Using the client, perform the HTTP request
 
