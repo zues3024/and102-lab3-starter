@@ -65,11 +65,6 @@ class BestSellerBooksRecyclerViewAdapter(
             .load(book.bookImageUrl)
             .centerInside()
             .into(holder.mBookImage)
-//
-//        holder.mBuyButton.setOnClickListener{
-//            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(book.amazonUrl))
-//            startActivity(it.context, browserIntent, null)
-//        }
 
         holder.mBuyButton.setOnClickListener {
             val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(book.amazonUrl.toString()))
