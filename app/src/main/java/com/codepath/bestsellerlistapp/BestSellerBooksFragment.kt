@@ -91,7 +91,6 @@ class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
 
                 // Look for this in Logcat:
                 Log.d("BestSellerBooksFragment", "response successful")
-                println(resultsJSON.toString())
             }
 
             /*
