@@ -8,4 +8,4 @@ Submitted by: **Jesus Rosas**
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='NYTimesApp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
